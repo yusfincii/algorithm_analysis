@@ -2,15 +2,19 @@ import java.util.Scanner;
 
 public class GreatestCommonDivisor {
 
+    // returns great common divisor of given two number
     public static int greatestCommonDivisorFunc(int m, int n){
         int x = n;
         if(x!=0){
             x = m % n;
             m = n;
             n = x;
-            return greatestCommonDivisorFunc(m, n);
+            // recursive
+            return greatestCommonDivisorFunc(m, n); // main operator
         }
         return m;
+
+        // Time complexity : O
     }
 
     public static void main(String[] args) {
