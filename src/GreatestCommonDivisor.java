@@ -14,7 +14,7 @@ public class GreatestCommonDivisor {
         }
         return m;
 
-        // Time complexity : O
+        // Time complexity : O(log(min(num1, num2)))
     }
 
     public static void main(String[] args) {
@@ -26,6 +26,8 @@ public class GreatestCommonDivisor {
         int num2 = scan.nextInt();
 
         System.out.println(greatestCommonDivisorFunc(num1, num2));
+
+
 
     }
 }
