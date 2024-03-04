@@ -9,7 +9,7 @@ public class Factorial_non_recursive {
         }
         return result;
 
-    // Time complexity : O(n)xx
+    // Time complexity : O(n)
     }
 
     public static void main(String[] args) {
