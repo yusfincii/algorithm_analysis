@@ -1,6 +1,6 @@
 public class Factorial_non_recursive {
 
-    // returns the factorial of a given number with loop
+    // returns the factorial of a given number using loop
     public static int factorial(int num){
         int result = 1;
         for(int i=num; i>0; i--){
