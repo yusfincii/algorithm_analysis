@@ -8,6 +8,8 @@ public class Factorial_non_recursive {
             result *= i;
         }
         return result;
+
+    // Time complexity : O(n)
     }
 
     public static void main(String[] args) {
