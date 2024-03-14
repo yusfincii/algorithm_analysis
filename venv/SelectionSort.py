@@ -5,6 +5,7 @@ def selection_sort(listX):
         for k in range(i, len(listX)-1):
             if listX[minx] > listX[k]:
                 minx = k
+        # swap
         tmp = listX[i]
         listX[i] = listX[minx]
         listX[minx] = tmp
@@ -14,5 +15,6 @@ def selection_sort(listX):
     # Time Complexity : O(n^2)
 
 
+# for testing
 test_list = [1, 11, 2, 39, 88, 67, 9, 29, 38, 71, 99]
 print(selection_sort(test_list))
