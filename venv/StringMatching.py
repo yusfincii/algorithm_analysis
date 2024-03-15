@@ -11,6 +11,8 @@ def string_matching(text, pattern):
     # not found situation
     return -1
 
+    # Time Complexity : O(len(text) * len(pattern))
+
 
 # for testing
 text = "Lorem ipsum dolar amet"
