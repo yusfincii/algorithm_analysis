@@ -1,1 +1,1 @@
-contains various sorting, searching algorithms and their explanations, analyzations and complexities
+contains various sorting, searching algorithms in Java-Python and their explanations, analyzations and complexities 
