@@ -16,6 +16,7 @@ public class BinaryDigit {
             quotient = quotient / 2; // main operation
         }
 
+        // returns reverse format of string which obtained from calculation process
         return Integer.parseInt(result.reverse().toString());
 
         // Time complexity : O(log n)
