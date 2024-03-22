@@ -41,6 +41,8 @@ public class MergeSort {
         }
 
         return A;
+
+        // Time Complexity : O(n*logn)
     }
 
     public static int[] mergeSort(int[] arr, int low, int high) {
