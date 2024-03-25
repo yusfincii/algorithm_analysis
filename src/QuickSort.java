@@ -30,6 +30,7 @@ public class QuickSort {
     public static int[] quickSort(int[] arr, int left, int right){
         if(left<right){
             int pIndex = partition(arr, left, right);
+            // recursive
             quickSort(arr, left, pIndex-1);
             quickSort(arr, pIndex+1, right);
         }
